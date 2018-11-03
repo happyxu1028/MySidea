@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="313b3ae0-c533-46da-ac8a-59fec8bd8a8a" name="Default" comment="搭建web start">
+      <change afterPath="$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/TEST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/SideaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/SideaApplication.java" afterDir="false" />
     </list>
@@ -22,15 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../Java_Plugin/Maven/LocalRep/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/context/support/AnnotationConfigWebApplicationContext.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/../Java_Plugin/Maven/LocalRep/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/context/support/XmlWebApplicationContext.class">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/SideaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            <state relative-caret-position="285">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/TEST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -384,7 +385,7 @@
     <property name="SearchEverywhereHistoryKey" value="Introspector&#9;PSI&#9;JAVA://java.beans.Introspector&#10;StringBuffer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java&#10;Condition&#9;PSI&#9;JAVA://java.util.concurrent.locks.Condition&#10;Custom Prop&#9;ACTION&#9;EditCustomProperties&#10;ConcurrentHashmap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;collecto&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;atomiclong&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicLong&#10;atomicIn&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;Proxy&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/reflect/Proxy.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541247044306" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541247548670" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/javacore36" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -546,7 +547,7 @@
       <workItem from="1538917932298" duration="4918000" />
       <workItem from="1540001510044" duration="931000" />
       <workItem from="1540473974833" duration="3611000" />
-      <workItem from="1541246784729" duration="203000" />
+      <workItem from="1541246784729" duration="459000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1536678741731</created>
@@ -573,7 +574,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34686000" />
+    <option name="totallyTimeSpent" value="34942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -671,14 +672,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10680">
-          <caret line="757" column="18" selection-start-line="757" selection-start-column="18" selection-end-line="757" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35130">
@@ -1065,8 +1058,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/SideaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="285">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/TEST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
