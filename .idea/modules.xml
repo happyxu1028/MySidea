@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/idea-common/idea-common.iml" filepath="$PROJECT_DIR$/idea-common/idea-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/idea-log/idea-log.iml" filepath="$PROJECT_DIR$/idea-log/idea-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/idea-service/idea-service.iml" filepath="$PROJECT_DIR$/idea-service/idea-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/idea-start/idea-start.iml" filepath="$PROJECT_DIR$/idea-start/idea-start.iml" />
       <module fileurl="file://$PROJECT_DIR$/sidea.iml" filepath="$PROJECT_DIR$/sidea.iml" />
     </modules>
