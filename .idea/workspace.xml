@@ -384,7 +384,7 @@
     <property name="SearchEverywhereHistoryKey" value="Introspector&#9;PSI&#9;JAVA://java.beans.Introspector&#10;StringBuffer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java&#10;Condition&#9;PSI&#9;JAVA://java.util.concurrent.locks.Condition&#10;Custom Prop&#9;ACTION&#9;EditCustomProperties&#10;ConcurrentHashmap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;collecto&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;atomiclong&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicLong&#10;atomicIn&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;Proxy&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/reflect/Proxy.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541247043150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541247044306" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/javacore36" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
