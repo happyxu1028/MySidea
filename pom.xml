@@ -12,6 +12,7 @@
         <module>idea-start</module>
         <module>idea-log</module>
         <module>idea-common</module>
+        <module>idea-service</module>
     </modules>
 
     <properties>
@@ -38,6 +39,20 @@
                 <artifactId>spring-boot-starter-aop</artifactId>
                 <version>${spring.boot.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>cglib</groupId>
+                <artifactId>cglib</artifactId>
+                <version>2.2.2</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.47</version>
+            </dependency>
+
 
             <!--&lt;!&ndash; MyBatis &ndash;&gt;-->
             <!--<dependency>-->
