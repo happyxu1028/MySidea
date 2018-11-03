@@ -12,13 +12,5 @@
         <module name="idea-start" />
       </profile>
     </annotationProcessing>
-
-    <bytecodeTargetLevel>
-      <module name="idea-common" target="1.7" />
-      <module name="idea-log" target="1.7" />
-      <module name="idea-service" target="1.8" />
-      <module name="idea-start" target="1.7" />
-      <module name="sidea" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
