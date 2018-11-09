@@ -46,7 +46,6 @@
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-aop:1.5.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.9" />
-          <element id="library" level="project" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:unknown" />
         </element>
       </element>
       <element id="directory" name="META-INF">
