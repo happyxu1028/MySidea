@@ -2,10 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="313b3ae0-c533-46da-ac8a-59fec8bd8a8a" name="Default" comment="搭建web start">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/algorithm/linked/LinkedLRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/algorithm/linked/LruDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/algorithm/linked/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/algorithm/linked/NodeChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/algorithm/queue/MyArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/algorithm/stack/MyAroundQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/algorithm/stack/MyArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/algorithm/stack/MyLinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/javacore36/juc/AbnormalSemaphoreSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/javacore36/juc/CyclicBarrierSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/javacore36/juc/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/javacore36/juc/UsualSeaphoreSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/sort/BubbleSortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/sort/BucketSortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/sort/CountSortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/sort/InsertSortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/sort/RadixSortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/sort/SelectSortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-service/target/classes/META-INF/idea-service.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/MyConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/SpringMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/interfaces/UserFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/interfaces/UserFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-start/src/main/resources/myBean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idea-start/target/classes/myBean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea-common/idea-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/idea-common/idea-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idea-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea-log/idea-log.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea-service/idea-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/idea-service/idea-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idea-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea-start/idea-start.iml" beforeDir="false" afterPath="$PROJECT_DIR$/idea-start/idea-start.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idea-start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idea-start/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sidea.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,91 +55,61 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../Java_Plugin/Maven/LocalRep/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/context/support/XmlWebApplicationContext.class">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Math.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../Java_Plugin/Maven/LocalRep/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="176" column="15" selection-start-line="176" selection-start-column="15" selection-end-line="176" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../Java_Plugin/Maven/LocalRep/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="504" column="15" selection-start-line="504" selection-start-column="15" selection-end-line="504" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../Java_Plugin/Maven/LocalRep/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/DefaultBeanDefinitionDocumentReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="160" column="19" selection-start-line="160" selection-start-column="19" selection-end-line="160" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../Java_Plugin/Maven/LocalRep/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="1403" column="26" selection-start-line="1403" selection-start-column="26" selection-end-line="1403" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../Java_Plugin/Maven/LocalRep/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionDocumentReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../Java_Plugin/Maven/LocalRep/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+            <state relative-caret-position="207">
+              <caret line="1252" column="5" selection-start-line="1252" selection-start-column="5" selection-end-line="1252" selection-end-column="5" />
+              <folding>
+                <element signature="e#16338#16339#0" expanded="true" />
+                <element signature="e#16420#16421#0" expanded="true" />
+                <element signature="e#49043#49044#0" expanded="true" />
+                <element signature="e#49082#49083#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/SideaApplication.java">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="225">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/idea-start/src/main/java/com/idea/realize/Test.java">
+        <entry file="jar://$PROJECT_DIR$/../Java_Plugin/Maven/LocalRep/com/google/guava/guava/23.0/guava-23.0.jar!/com/google/common/collect/Collections2.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="165">
+              <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../Java_Plugin/Maven/LocalRep/org/springframework/spring-context/4.3.7.RELEASE/spring-context-4.3.7.RELEASE.jar!/org/springframework/context/support/AbstractXmlApplicationContext.class">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="1470">
+              <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/idea-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/idea-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -293,6 +293,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,98 +302,17 @@
               <item name="sidea" type="b2602c69:ProjectViewProjectNode" />
               <item name="sidea" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sidea" type="462c0819:PsiDirectoryNode" />
-              <item name="idea-log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sidea" type="462c0819:PsiDirectoryNode" />
-              <item name="idea-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sidea" type="462c0819:PsiDirectoryNode" />
-              <item name="idea-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sidea" type="462c0819:PsiDirectoryNode" />
-              <item name="idea-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sidea" type="462c0819:PsiDirectoryNode" />
-              <item name="idea-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sidea" type="462c0819:PsiDirectoryNode" />
-              <item name="idea-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javacore36" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sidea" type="462c0819:PsiDirectoryNode" />
-              <item name="idea-start" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sidea" type="462c0819:PsiDirectoryNode" />
-              <item name="idea-start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sidea" type="462c0819:PsiDirectoryNode" />
-              <item name="idea-start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sidea" type="462c0819:PsiDirectoryNode" />
-              <item name="idea-start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sidea" type="462c0819:PsiDirectoryNode" />
-              <item name="idea-start" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="realize" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sidea" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Introspector&#9;PSI&#9;JAVA://java.beans.Introspector&#10;StringBuffer&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/StringBuffer.java&#10;Condition&#9;PSI&#9;JAVA://java.util.concurrent.locks.Condition&#10;Custom Prop&#9;ACTION&#9;EditCustomProperties&#10;ConcurrentHashmap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;Collections&#9;PSI&#9;JAVA://java.util.Collections&#10;collecto&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;atomiclong&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicLong&#10;atomicIn&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;Proxy&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/reflect/Proxy.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541248028685" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542294853753" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/idea-service/src/main/java/com/idea/realize/javacore36" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -579,13 +500,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35239000" />
+    <option name="totallyTimeSpent" value="35304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4948148" visible="true" weight="0.18012924" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4948148" visible="true" weight="0.24878837" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -593,11 +513,9 @@
       <window_info id="Favorites" order="5" sideWeight="0.5051852" side_tool="true" weight="0.21299255" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32739726" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32739726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889959" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -605,10 +523,11 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.2369863" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32969216" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32969216" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -619,10 +538,37 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />
@@ -677,26 +623,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35130">
-          <caret line="2573" column="32" selection-start-line="2573" selection-start-column="32" selection-end-line="2573" selection-end-column="32" />
-          <folding>
-            <element signature="e#101602#101603#0" expanded="false" />
-            <element signature="e#101649#101650#0" expanded="false" />
-            <element signature="e#102350#102351#0" expanded="false" />
-            <element signature="e#102415#102416#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3900">
-          <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32025">
@@ -1072,6 +998,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sidea.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
     </entry>
