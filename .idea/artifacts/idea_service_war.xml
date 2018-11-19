@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="idea-service:war">
+    <output-path>$PROJECT_DIR$/idea-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>idea-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="idea-service.war">
+      <element id="artifact" artifact-name="idea-service:war exploded" />
+    </root>
+  </artifact>
+</component>
