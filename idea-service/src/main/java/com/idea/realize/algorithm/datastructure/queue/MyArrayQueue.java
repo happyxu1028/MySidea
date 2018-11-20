@@ -1,4 +1,4 @@
-package com.idea.realize.algorithm.queue;
+package com.idea.realize.algorithm.datastructure.queue;
 
 /**
  * 数组实现有界队列
