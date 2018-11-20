@@ -51,6 +51,8 @@ public class BucketSortDemo01 {
         }
 
 
+
+        System.out.println(Arrays.toString(a));
         System.out.println(Arrays.toString(a));
     }
 }
