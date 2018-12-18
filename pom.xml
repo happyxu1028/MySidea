@@ -13,6 +13,7 @@
         <module>idea-log</module>
         <module>idea-common</module>
         <module>idea-service</module>
+        <module>idea-study</module>
     </modules>
 
     <properties>
