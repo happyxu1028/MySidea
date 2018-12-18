@@ -1,4 +1,4 @@
-package com.idea.realize.sort;
+package com.idea.realize.algorithm.sort;
 
 
 import java.util.*;

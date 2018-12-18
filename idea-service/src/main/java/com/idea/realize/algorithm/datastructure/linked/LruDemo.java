@@ -1,4 +1,4 @@
-package com.idea.realize.algorithm.linked;
+package com.idea.realize.algorithm.datastructure.linked;
 
 public class LruDemo {
 

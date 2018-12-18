@@ -1,4 +1,4 @@
-package com.idea.realize.algorithm.stack;
+package com.idea.realize.algorithm.datastructure.stack;
 
 /**
  * 数组实现唤醒队列
