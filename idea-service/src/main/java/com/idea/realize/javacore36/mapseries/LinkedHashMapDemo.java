@@ -14,7 +14,7 @@ public class LinkedHashMapDemo {
 
     public static void main(String[] args) {
 
-        LinkedHashMap linkedHashMap = new LinkedHashMap(16,0.74F){
+        LinkedHashMap linkedHashMap = new LinkedHashMap(16, 0.74F) {
 
             @Override
             protected boolean removeEldestEntry(Map.Entry eldest) {
@@ -22,17 +22,17 @@ public class LinkedHashMapDemo {
             }
         };
 
-        linkedHashMap.put("1","11");
-        linkedHashMap.put("2","22");
+        linkedHashMap.put("1", "11");
+        linkedHashMap.put("2", "22");
 
-        linkedHashMap.forEach((k,v)->{
-            System.out.println("k : "+k + " | v : "+v);
+        linkedHashMap.forEach((k, v) -> {
+            System.out.println("k : " + k + " | v : " + v);
         });
 
         System.out.println("=======================");
-        linkedHashMap.put("3","33");
-        linkedHashMap.forEach((k,v)->{
-            System.out.println("k : "+k + " | v : "+v);
+        linkedHashMap.put("3", "33");
+        linkedHashMap.forEach((k, v) -> {
+            System.out.println("k : " + k + " | v : " + v);
         });
 
     }

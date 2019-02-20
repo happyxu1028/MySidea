@@ -18,10 +18,10 @@ public class MyAroundQueue {
         items = new Object[capacity];
     }
 
-    public boolean push(Object obj){
+    public boolean push(Object obj) {
         //判断队列已满
-        int nextPos = (tail+1)%capacity;
-        if(nextPos == head){
+        int nextPos = (tail + 1) % capacity;
+        if (nextPos == head) {
             return false;
         }
         items[tail] = obj;
@@ -29,8 +29,8 @@ public class MyAroundQueue {
         return true;
     }
 
-    public Object pop(){
-        if(head == tail){
+    public Object pop() {
+        if (head == tail) {
             return null;
         }
         Object temp = items[head];

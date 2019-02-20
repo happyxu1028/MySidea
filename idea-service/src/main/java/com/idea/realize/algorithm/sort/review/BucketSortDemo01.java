@@ -11,7 +11,7 @@ import java.util.List;
 public class BucketSortDemo01 {
 
     public static void main(String[] args) {
-        sort(new int[]{34,6,2,36,5,20,6,2,6,6,2,66,86,5,37,56,34});
+        sort(new int[]{34, 6, 2, 36, 5, 20, 6, 2, 6, 6, 2, 66, 86, 5, 37, 56, 34});
 
     }
 
@@ -26,7 +26,7 @@ public class BucketSortDemo01 {
             max = Math.max(thisValue, max);
         }
 
-        int num = (max - min)/4 + 1;
+        int num = (max - min) / 4 + 1;
         List<List> list = new ArrayList<>();
         for (int i = 0; i < num; i++) {
             list.add(new ArrayList());
@@ -34,7 +34,7 @@ public class BucketSortDemo01 {
 
         // 入桶
         for (int thisValue : a) {
-            int bucketIndex = (thisValue-min)/4;
+            int bucketIndex = (thisValue - min) / 4;
             list.get(bucketIndex).add(thisValue);
         }
 
@@ -42,9 +42,9 @@ public class BucketSortDemo01 {
         int count = 0;
         for (List thisList : list) {
             Collections.sort(thisList);
-            if(!thisList.isEmpty()){
+            if (!thisList.isEmpty()) {
                 for (Object o : thisList) {
-                    a[count++] = (int)o;
+                    a[count++] = (int) o;
                 }
 
             }

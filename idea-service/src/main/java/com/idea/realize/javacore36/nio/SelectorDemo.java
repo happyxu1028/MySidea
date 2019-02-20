@@ -26,34 +26,34 @@ public class SelectorDemo {
             socketChannel.configureBlocking(false);
             //一个selector可以接受注册多个channel
             SelectionKey selectionKey = socketChannel.register(selector, SelectionKey.OP_CONNECT);
-            while(true){
+            while (true) {
 
                 //返回所有注册的已就绪的通道数量
                 int readySelectChannel = selector.select();
-                if(readySelectChannel == 0){
+                if (readySelectChannel == 0) {
                     continue;
                 }
 
                 Set<SelectionKey> selectionKeySet = selector.selectedKeys();
                 Iterator<SelectionKey> iterator = selectionKeySet.iterator();
-                while(iterator.hasNext()){
+                while (iterator.hasNext()) {
 
 
                     SelectionKey key = iterator.next();
 
-                    if (key.isAcceptable()){
+                    if (key.isAcceptable()) {
 
                     }
 
-                    if(key.isConnectable()){
+                    if (key.isConnectable()) {
 
                     }
 
-                    if(key.isReadable()){
+                    if (key.isReadable()) {
 
                     }
 
-                    if(key.isWritable()){
+                    if (key.isWritable()) {
 
                     }
                 }

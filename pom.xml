@@ -57,20 +57,20 @@
 
             <!--&lt;!&ndash; MyBatis &ndash;&gt;-->
             <!--<dependency>-->
-                <!--<groupId>org.mybatis.spring.boot</groupId>-->
-                <!--<artifactId>mybatis-spring-boot-starter</artifactId>-->
-                <!--<version>1.1.1</version>-->
+            <!--<groupId>org.mybatis.spring.boot</groupId>-->
+            <!--<artifactId>mybatis-spring-boot-starter</artifactId>-->
+            <!--<version>1.1.1</version>-->
             <!--</dependency>-->
             <!--&lt;!&ndash; mysql连接驱动 &ndash;&gt;-->
             <!--<dependency>-->
-                <!--<groupId>mysql</groupId>-->
-                <!--<artifactId>mysql-connector-java</artifactId>-->
+            <!--<groupId>mysql</groupId>-->
+            <!--<artifactId>mysql-connector-java</artifactId>-->
             <!--</dependency>-->
             <!--&lt;!&ndash; 连接池 &ndash;&gt;-->
             <!--<dependency>-->
-                <!--<groupId>com.alibaba</groupId>-->
-                <!--<artifactId>druid</artifactId>-->
-                <!--<version>1.0.4</version>-->
+            <!--<groupId>com.alibaba</groupId>-->
+            <!--<artifactId>druid</artifactId>-->
+            <!--<version>1.0.4</version>-->
             <!--</dependency>-->
             <!-- fastjson -->
             <dependency>

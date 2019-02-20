@@ -15,7 +15,7 @@ public class CglibProxyDemo {
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(UserServiceImpl.class);
         enhancer.setCallback(new MyMethodInterceptor());
-        UserServiceImpl userService = (UserServiceImpl)enhancer.create();
+        UserServiceImpl userService = (UserServiceImpl) enhancer.create();
         userService.add();
         userService.delete();
     }

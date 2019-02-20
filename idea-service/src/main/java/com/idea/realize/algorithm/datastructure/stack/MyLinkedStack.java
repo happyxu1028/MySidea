@@ -18,33 +18,34 @@ public class MyLinkedStack {
 
 }
 
-class Node{
+class Node {
     Node head;
     Object data;
     Node next;
 
-    public Node(){}
+    public Node() {
+    }
 
     public Node(Object data, Node next) {
         this.data = data;
         this.next = next;
     }
 
-    public boolean push(Object obj){
+    public boolean push(Object obj) {
         Node temp = head;
-        Node node = new Node(obj,temp);
+        Node node = new Node(obj, temp);
         head = node;
         return true;
     }
 
-    public Object pop(){
+    public Object pop() {
         Node temp = head;
-        if(temp == null){
+        if (temp == null) {
             return null;
         }
-        if(temp.next == null){
+        if (temp.next == null) {
             head = null;
-        }else{
+        } else {
             head = temp.next;
         }
         return temp.data;

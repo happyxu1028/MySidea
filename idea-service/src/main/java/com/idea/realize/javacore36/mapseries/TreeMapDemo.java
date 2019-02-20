@@ -15,9 +15,9 @@ public class TreeMapDemo {
 
     public static void main(String[] args) {
 
-        Person person1 = new Person("xubin",28);
-        Person person2 = new Person("suyu",20);
-        Person person3 = new Person("suyu666",230);
+        Person person1 = new Person("xubin", 28);
+        Person person2 = new Person("suyu", 20);
+        Person person3 = new Person("suyu666", 230);
 //        TreeMap<String,Person> treeMap = new TreeMap(new Comparator() {
 //            @Override
 //            public int compare(Object o1, Object o2) {
@@ -45,13 +45,13 @@ public class TreeMapDemo {
 //        treeMap.put("3199",person1);
 //        treeMap.put("22",person2);
 //        treeMap.put("244",person3);
-        TreeMap<Person,String> treeMap = new TreeMap();
-        treeMap.put(person1,"1");
-        treeMap.put(person2,"2");
-        treeMap.put(person3,"3");
+        TreeMap<Person, String> treeMap = new TreeMap();
+        treeMap.put(person1, "1");
+        treeMap.put(person2, "2");
+        treeMap.put(person3, "3");
 
-        for (Map.Entry<Person,String> entry : treeMap.entrySet()) {
-            System.out.println("key:"+entry.getKey().toString()+" | value:"+entry.getValue().toString()) ;
+        for (Map.Entry<Person, String> entry : treeMap.entrySet()) {
+            System.out.println("key:" + entry.getKey().toString() + " | value:" + entry.getValue().toString());
         }
     }
 }

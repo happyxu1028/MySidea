@@ -8,6 +8,6 @@ public class ThreadLocalTest {
         threadLocal.set("abc");
         threadLocal.set("1");
 
-        System.out.println("dedao: "+threadLocal.get());
+        System.out.println("dedao: " + threadLocal.get());
     }
 }

@@ -21,28 +21,28 @@ public class ScatterDemo {
 
         try {
 
-            RandomAccessFile randomAccessFile = new RandomAccessFile("/Users/apple/Documents/TEST/abc.txt","rw");
+            RandomAccessFile randomAccessFile = new RandomAccessFile("/Users/apple/Documents/TEST/abc.txt", "rw");
             FileChannel fileChanel = randomAccessFile.getChannel();
 
             ByteBuffer headerBuf = ByteBuffer.allocate(2);
             ByteBuffer bodyBuf = ByteBuffer.allocate(2);
 
-            ByteBuffer[] array = new ByteBuffer[]{headerBuf,bodyBuf};
+            ByteBuffer[] array = new ByteBuffer[]{headerBuf, bodyBuf};
 
             long readResult = fileChanel.read(array);
 
-            while(readResult != -1){
+            while (readResult != -1) {
                 headerBuf.flip();
                 bodyBuf.flip();
 
 
 //                boolean headOver = false;
-                while(headerBuf.hasRemaining()){
+                while (headerBuf.hasRemaining()) {
                     byte b = headerBuf.get();
-                    System.out.println((char)b);
+                    System.out.println((char) b);
                 }
 
-                while(bodyBuf.hasRemaining()){
+                while (bodyBuf.hasRemaining()) {
                     System.out.println((char) bodyBuf.get());
                 }
 
@@ -50,7 +50,6 @@ public class ScatterDemo {
                 bodyBuf.clear();
                 readResult = fileChanel.read(array);
             }
-
 
 
         } catch (Exception e) {

@@ -16,14 +16,14 @@ public class JdkProxyDemo {
     public static void main(String[] args) {
         PersonInterface personInterface = new PersonInterfaceImpl();
         MyInvocationHandler myInvocationHandler = new MyInvocationHandler(personInterface);
-        PersonInterface proxy = (PersonInterface)Proxy.newProxyInstance(PersonInterfaceImpl.class.getClassLoader(),PersonInterfaceImpl.class.getInterfaces(),myInvocationHandler);
+        PersonInterface proxy = (PersonInterface) Proxy.newProxyInstance(PersonInterfaceImpl.class.getClassLoader(), PersonInterfaceImpl.class.getInterfaces(), myInvocationHandler);
         proxy.sayHi();
     }
 
 
 }
 
-class MyInvocationHandler implements InvocationHandler{
+class MyInvocationHandler implements InvocationHandler {
 
 
     private PersonInterface personInterface;

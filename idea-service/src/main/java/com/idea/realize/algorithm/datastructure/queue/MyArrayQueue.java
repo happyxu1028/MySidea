@@ -18,17 +18,17 @@ public class MyArrayQueue {
         item = new Object[capacity];
     }
 
-    public boolean push(Object obj){
+    public boolean push(Object obj) {
         //tail指针已到极限
-        if(tail == capacity){
-            if(head == 0){
+        if (tail == capacity) {
+            if (head == 0) {
                 return false;
             }
             //整体往前移动head个单元
-            for(int pos = head; pos < tail; pos++){
-                item[pos-head] = item[pos];
+            for (int pos = head; pos < tail; pos++) {
+                item[pos - head] = item[pos];
             }
-            tail = tail-head;
+            tail = tail - head;
             head = 0;
 //            return false;
         }
@@ -37,9 +37,9 @@ public class MyArrayQueue {
         return true;
     }
 
-    public Object pop(){
+    public Object pop() {
         //判空
-        if(head == tail){
+        if (head == tail) {
             return null;
         }
         Object temp = item[head];

@@ -29,7 +29,7 @@ public class MyConfiguration {
         proxyFactoryBean.setTargetName("userFacade");
 //        proxyFactoryBean.setTargetClass(UserFacade.class);
         proxyFactoryBean.setProxyInterfaces(new Class[]{UserFacade.class});
-        return  proxyFactoryBean;
+        return proxyFactoryBean;
     }
 
 

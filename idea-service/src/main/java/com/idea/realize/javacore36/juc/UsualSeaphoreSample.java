@@ -7,14 +7,14 @@ public class UsualSeaphoreSample {
     public static void main(String[] args) {
         System.out.println("Action...Go...");
         Semaphore semaphore = new Semaphore(5);
-        for (int i= 0; i < 10;i++){
+        for (int i = 0; i < 10; i++) {
             SemaphoreWorker semaphoreWorker = new SemaphoreWorker(semaphore);
             new Thread(semaphoreWorker).start();
         }
     }
 }
 
-class SemaphoreWorker implements Runnable{
+class SemaphoreWorker implements Runnable {
 
     private String name;
 
@@ -40,8 +40,8 @@ class SemaphoreWorker implements Runnable{
         }
     }
 
-    private void log(String message){
-        if(null == name){
+    private void log(String message) {
+        if (null == name) {
             name = Thread.currentThread().getName();
         }
         System.out.println(name + " : " + message);

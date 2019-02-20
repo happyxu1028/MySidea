@@ -9,11 +9,11 @@ package com.idea.realize.javacore36.proxy.cglib;
  */
 public class UserServiceImpl {
 
-    public void add(){
+    public void add() {
         System.out.println("UserServiceImpl Add A Person");
     }
 
-    public void delete(){
+    public void delete() {
         System.out.println("UserServiceImpl Delete A Person");
     }
 }

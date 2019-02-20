@@ -37,7 +37,7 @@ public class GatterDemo {
 
 //            RandomAccessFile randomAccessFile = new RandomAccessFile("/Users/apple/Documents/TEST/abc.txt","rw");
 
-            FileOutputStream fileOutputStream = new FileOutputStream(new File("/Users/apple/Documents/TEST/abc.txt"),true);
+            FileOutputStream fileOutputStream = new FileOutputStream(new File("/Users/apple/Documents/TEST/abc.txt"), true);
 
             FileChannel fileChannel = fileOutputStream.getChannel();
             System.out.println(fileChannel.position());

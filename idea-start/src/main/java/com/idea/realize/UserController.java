@@ -14,7 +14,7 @@ public class UserController {
 
 
     @RequestMapping("/getUserNameById.do")
-    public String getUserNameById(@RequestParam("id") String id){
+    public String getUserNameById(@RequestParam("id") String id) {
         return userFacade.getUserNameById(id);
     }
 

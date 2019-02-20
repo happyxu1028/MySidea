@@ -7,7 +7,7 @@ package com.idea.realize.javacore36.proxy.jdk;
  * @ProjectName sidea
  * @date 2018/9/16下午9:26
  */
-public class PersonInterfaceImpl implements PersonInterface{
+public class PersonInterfaceImpl implements PersonInterface {
 
     @Override
     public void sayHi() {

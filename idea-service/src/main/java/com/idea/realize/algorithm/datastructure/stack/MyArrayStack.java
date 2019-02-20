@@ -17,27 +17,27 @@ public class MyArrayStack {
         count = 0;
     }
 
-    public boolean push(Object obj){
-        if(capcity == count){
+    public boolean push(Object obj) {
+        if (capcity == count) {
             return false;
         }
         items[count++] = obj;
         return true;
     }
 
-    public Object pop(){
-        if(count == 0 || null == items){
+    public Object pop() {
+        if (count == 0 || null == items) {
             return null;
         }
-        int pos = count-1;
+        int pos = count - 1;
         Object obj = items[pos];
         items[pos] = null;
         count--;
         return obj;
     }
 
-    public void print(){
-        for(int i = 0; i < count; i++){
+    public void print() {
+        for (int i = 0; i < count; i++) {
             System.out.println(items[i].toString());
         }
     }

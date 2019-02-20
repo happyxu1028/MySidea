@@ -11,7 +11,7 @@ import java.util.Comparator;
  * @ProjectName sidea
  * @date 2018/9/19下午9:32
  */
-public class Person implements Comparator,Comparable{
+public class Person implements Comparator, Comparable {
 
     private String name;
 
@@ -41,25 +41,25 @@ public class Person implements Comparator,Comparable{
 
     @Override
     public int compare(Object o1, Object o2) {
-        Person p1 = (Person)o1;
-        Person p2 = (Person)o2;
-        if(p1.age>p2.age) {
+        Person p1 = (Person) o1;
+        Person p2 = (Person) o2;
+        if (p1.age > p2.age) {
             return 1;
-        }else if(p1.age < p2.age){
+        } else if (p1.age < p2.age) {
             return -1;
-        }else{
+        } else {
             return 0;
         }
     }
 
     @Override
     public int compareTo(Object o) {
-        Person p2 = (Person)o;
-        if(this.age>p2.age) {
+        Person p2 = (Person) o;
+        if (this.age > p2.age) {
             return 1;
-        }else if(this.age < p2.age){
+        } else if (this.age < p2.age) {
             return -1;
-        }else{
+        } else {
             return 0;
         }
     }

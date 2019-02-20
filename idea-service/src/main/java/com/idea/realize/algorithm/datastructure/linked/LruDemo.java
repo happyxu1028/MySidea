@@ -11,7 +11,7 @@ public class LruDemo {
         nodeChain.addFirst("4");
         nodeChain.addFirst("5");
 
-        System.out.println("初始化容量:"+nodeChain.size);
+        System.out.println("初始化容量:" + nodeChain.size);
 
         nodeChain.visit("3");
         nodeChain.visit("6");

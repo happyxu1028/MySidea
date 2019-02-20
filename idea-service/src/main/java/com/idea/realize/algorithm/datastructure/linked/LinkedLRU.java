@@ -19,7 +19,7 @@ public class LinkedLRU {
         linkedLRU.test();
     }
 
-    public  void init() {
+    public void init() {
 
         node.addFirst(1);
         node.addFirst(2);
@@ -29,18 +29,18 @@ public class LinkedLRU {
     }
 
 
-    public  void test() {
+    public void test() {
         System.out.println("初始化容量:" + node.length());
 
-        visit(4,node);
+        visit(4, node);
 
-        visit(6,node);
-        visit(7,node);
-        visit(8,node);
-        visit(9,node);
-        visit(10,node);
-        visit(11,node);
-        visit(5,node);
+        visit(6, node);
+        visit(7, node);
+        visit(8, node);
+        visit(9, node);
+        visit(10, node);
+        visit(11, node);
+        visit(5, node);
 
     }
 
@@ -48,7 +48,7 @@ public class LinkedLRU {
 
         print(node);
 
-        System.out.println("数据前......"+i);
+        System.out.println("数据前......" + i);
         boolean exist = false;
 
         for (Node<Integer> first = node.first; first != null; first = first.next) {  // 1. 访问存在的数据,删除原有位置.添加到头部
@@ -59,11 +59,11 @@ public class LinkedLRU {
             }
         }
 
-         // 2. 访问不存在数据
-        if(!exist){
-            if(node.length()<capacity){   // 2.1 不超过容量,插入头部
+        // 2. 访问不存在数据
+        if (!exist) {
+            if (node.length() < capacity) {   // 2.1 不超过容量,插入头部
                 node.addFirst(i);
-            }else{                        // 2.2 不超过容量,插入头部
+            } else {                        // 2.2 不超过容量,插入头部
                 node.remove();
                 node.addFirst(i);
             }
@@ -79,7 +79,7 @@ public class LinkedLRU {
 
     private void print(Node node) {
         for (Node<Integer> temp = node.first; temp != null; temp = temp.next) {
-            System.out.print(temp.data+": ");
+            System.out.print(temp.data + ": ");
         }
         System.out.println("    ");
     }
@@ -127,11 +127,11 @@ public class LinkedLRU {
          */
         private void linkedLast(E e) {
             Node t = tail;
-            Node newNode = new Node(e,null);
+            Node newNode = new Node(e, null);
             tail = newNode;
             if (t == null) {
                 first = tail;
-            }else{
+            } else {
                 t.next = tail;
             }
             size++;
@@ -145,9 +145,9 @@ public class LinkedLRU {
             Node pre = first;
             for (Node node = first; node != null; node = node.next) {
                 if (e.equals(node.data)) {
-                    if(node!=first){
+                    if (node != first) {
                         pre.next = pre.next.next;
-                    }else{
+                    } else {
                         first = first.next;
                     }
                     size--;
@@ -156,11 +156,11 @@ public class LinkedLRU {
             }
         }
 
-        public void remove(){
+        public void remove() {
             for (Node node = first; node != null; node = node.next) {
-                if(node == tail){
+                if (node == tail) {
                     first = tail = null;
-                } else if(node.next == tail) {
+                } else if (node.next == tail) {
                     node.next = null;
                     tail = node;
 

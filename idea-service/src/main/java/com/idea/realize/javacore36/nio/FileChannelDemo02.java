@@ -20,25 +20,25 @@ public class FileChannelDemo02 {
     }
 
 
-    private static  void transferTo(){
+    private static void transferTo() {
         try {
-            RandomAccessFile fromFile = new RandomAccessFile("/Users/apple/Documents/TEST/fromFile.txt","r");
+            RandomAccessFile fromFile = new RandomAccessFile("/Users/apple/Documents/TEST/fromFile.txt", "r");
             FileChannel fromChannel = fromFile.getChannel();
-            RandomAccessFile toFile = new RandomAccessFile("/Users/apple/Documents/TEST/toFile.txt","rw");
+            RandomAccessFile toFile = new RandomAccessFile("/Users/apple/Documents/TEST/toFile.txt", "rw");
             FileChannel toChannel = toFile.getChannel();
-            fromChannel.transferTo(0,fromChannel.size(),toChannel);
+            fromChannel.transferTo(0, fromChannel.size(), toChannel);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    private void transferFrom(){
+    private void transferFrom() {
         try {
-            RandomAccessFile fromFile = new RandomAccessFile("/Users/apple/Documents/TEST/fromFile.txt","r");
+            RandomAccessFile fromFile = new RandomAccessFile("/Users/apple/Documents/TEST/fromFile.txt", "r");
             FileChannel fromChannel = fromFile.getChannel();
-            RandomAccessFile toFile = new RandomAccessFile("/Users/apple/Documents/TEST/toFile.txt","rw");
+            RandomAccessFile toFile = new RandomAccessFile("/Users/apple/Documents/TEST/toFile.txt", "rw");
             FileChannel toChannel = toFile.getChannel();
-            toChannel.transferFrom(fromChannel,0,fromChannel.size());
+            toChannel.transferFrom(fromChannel, 0, fromChannel.size());
 
         } catch (Exception e) {
             e.printStackTrace();
